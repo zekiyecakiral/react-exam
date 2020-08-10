@@ -1,0 +1,36 @@
+.App {
+    text-align: center;
+  }
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 29%;
+    margin: auto;
+    margin-top: 40px;
+  
+  }
+
+  .users {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 1000px;
+    margin: 5em auto;
+    list-style: none;
+}
+.singleUser {
+  width: 300px;
+  margin: 0 1em;
+  transition: all 0.5s ease;
+}
+.singleUser:hover {
+  box-shadow: 5px 5px 5px 5px lightgrey;
+}
+  p:hover {
+    background-color: #f1e8eb;
+    cursor: pointer;
+  }
+
